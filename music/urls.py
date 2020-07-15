@@ -19,10 +19,9 @@ from django.urls import include, path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', albums_views.index, name='Home'),
 ]
-urlpatterns = [
-    path(Driverdisco)
-]
+
 if settings.DEBUG:
     import debug_toolbar
     urlpatterns = [
