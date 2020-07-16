@@ -38,7 +38,7 @@ ALLOWED_HOSTS = ['django-music-cdriver85--cdriver.repl.co', 'django-music-cdrive
 # Application definition
 
 INSTALLED_APPS = [
-    'django.registration',
+    'registration',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -142,3 +142,7 @@ INTERNAL_IPS = [
     '127.0.0.1',
     # ...
 ]
+
+# Albums
+LOGIN_REDIRECT_URL = '/albums'
+SIMPLE_BACKEND_REDIRECT_url = '/albums'                                                                             '                                              
