@@ -1,1 +1,53 @@
-body{background-color: blue
+
+
+
+h1 {
+  text-align: center;
+  color: darkgrey;
+  background: blue;
+}
+
+h2 {
+  text-align: center;
+  color: black;
+  background: white;
+  border-radius: 10%;
+}
+
+a.add {
+  display: flex;
+  color:black;
+  background: darkgrey;
+  text-align: center;
+}
+
+.everything {
+  display: flex;
+  flex-wrap: wrap; 
+  flex-flow: row wrap;
+  flex-direction: row;
+  border: 2px dashed purple;
+  align-items: flex-start;
+  background: grey;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  flex-flow: wrap; 
+  text-align: center;
+  color: black;
+  border: 2px solid gold;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  border-radius: 10%;
+  background:grey;
+}
+
+
+.albums {
+  background: rgba(54, 15, 146, 0.021)
+  border: 2px solid yellow;
+}

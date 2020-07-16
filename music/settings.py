@@ -38,6 +38,7 @@ ALLOWED_HOSTS = ['django-music-cdriver85--cdriver.repl.co', 'django-music-cdrive
 # Application definition
 
 INSTALLED_APPS = [
+    'django.registration',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
