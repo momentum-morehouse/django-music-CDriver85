@@ -16,4 +16,11 @@ class Album(models.Model):
 
 class Users(models.Model):
   pass
-  
+
+class Details(models.Model):
+    detail = models.ForeignKey(Album, on_delete=models.CASCADE, related_name="details")
+    text = models.TextField(null=True, blank=True)
+    date_added = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f"{self.text}"

@@ -6,9 +6,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>All Albums</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tachyons/4.11.1/tachyons.css">
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tachyons/4.11.1/tachyons.css"type="text/css">
+
+ <link rel="stylesheet" href="{% static 'css/styles.css' %}"type="text/css">
+
+ <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Architects+Daughter"
+/>
+
+
+ <base href = '/'>
+
+
   
 </head>
+<center>
+<h1>Can't get right music </h1>
+</center>
 <body class="sans-serif pv3 ph2">
   <div class="mw9 center">
     {% block content %}
@@ -16,4 +31,3 @@
   </div>
 </body>
 </html>
-

@@ -145,4 +145,4 @@ INTERNAL_IPS = [
 
 # Albums
 LOGIN_REDIRECT_URL = '/albums'
-SIMPLE_BACKEND_REDIRECT_url = '/albums'                                                                             '                                              
+SIMPLE_BACKEND_REDIRECT_URL = '/albums'                                                                                                                       
