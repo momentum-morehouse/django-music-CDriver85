@@ -32,7 +32,7 @@ SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['django-music-cdriver85--cdriver.repl.co', 'django-music-cdriver85.cdriver.repl.co']
+ALLOWED_HOSTS = ['django-music-cdriver85--cdriver.repl.co', 'django-music-cdriver85.cdriver.repl.co', '10.128.0.7']
 
 
 # Application definition
@@ -142,7 +142,7 @@ INTERNAL_IPS = [
     '127.0.0.1',
     # ...
 ]
-
+# changed ln 147-148 to home
 # Albums
-LOGIN_REDIRECT_URL = '/albums'
-SIMPLE_BACKEND_REDIRECT_URL = '/albums'                                                                                                                       
+LOGIN_REDIRECT_URL = '/home'
+SIMPLE_BACKEND_REDIRECT_URL = '/home'                                                                                                                       

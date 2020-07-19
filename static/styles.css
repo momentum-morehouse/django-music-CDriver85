@@ -1,12 +1,12 @@
 h1 {
   text-align: center;
-  color: darkgrey;
-  background: blue;
+  color: brown;
+  background: darkgrey;
 }
 
 h2 {
   text-align: center;
-  color: black;
+  color: blue;
   background: white;
   border-radius: 10%;
 }
@@ -23,9 +23,9 @@ a.add {
   flex-wrap: wrap; 
   flex-flow: row wrap;
   flex-direction: row;
-  border: 2px dashed purple;
+  border: 2px dashed gray;
   align-items: flex-start;
-  background: grey;
+  background: green;
   justify-content: space-between;
   text-align: center;
 }
@@ -34,17 +34,20 @@ a.add {
   display: flex;
   flex-flow: wrap; 
   text-align: center;
-  color: black;
-  border: 2px solid gold;
+  color: white;
+  border: 2px solid navy;
   width: 250px;
   height: 250px;
-  text-align:center;
+  text-align: center;
   border-radius: 10%;
-  background:grey;
+  background: silver;
 }
 
 
 .albums {
-  background: rgba(54, 15, 146, 0.021)
-  border: 2px solid grey;
+  background: purple;
+  border: 2px blueviolet;
 }
+
+
+
